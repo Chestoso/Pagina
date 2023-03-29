@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--TITULO Y ICONO  DE LA PESTAÑA DE WEB-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> EL MUNDO DEL ARTE </title>
+
+	<!--ENLACES DE LOS ESTILOS DEL SITIO DE WEB-->    
+	<link rel="stylesheet" type="text/css" href="ESTILO/Estilo Generales.css">
+	<link rel="stylesheet" href="ESTILO/font de redes.css">
+	<link rel="shortcut icon" type="image/x-icon" href="IMAGEN DE LA PESTAÑA/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+	<style>
+		.img-center{
+			text-align: center;
+		}
+	</style>
+</head>
+
+<!--FONDO DEL SITIO WEB-->
+<body background="FONDOS/fondo1.jpg">
+</body>
+
+<!--BARRA DEL LAS REDES SOCIALES DEL SITIO WEB-->
+<body>
+  <div class="social-bar">
+    <a href="https://web.facebook.com/profile.php?id=100068387993222" class="icon icon-facebook" target="_blank"></a>
+    <a href="" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/@chestosoCR./youtube.com/" class="icon icon-youtube" target="_blank"></a>
+    <a href="" class="icon icon-instagram" target="_blank"></a>
+  </div>
+</body>
+
+<!--MUSICA DE FONDO SITIO WEB-->
+<body onclick = "PlayAudio()">
+	<audio id="musica1"loop>
+		<source src="Musica/GymnopédieNo.1.mp3" type="audio/mpeg" >
+	</audio>
+	<script>
+		function PlayAudio(){
+			document.getElementById("musica1").play();
+		}
+	</script>
+</body>
+
+<!--ESTRUCTURA DEL SITIO WEB-->
+<body>
+	<header>
+  <div class="resolucion">
+		<!--ENCABEZADO DEL SITIO WEB-->
+		<div class="fondo">
+			<img src="IMAGEN DE CONTENIDO/fondo2.jpg" width="1000" alt="100">
+		</div>
+
+		<!--MENU DEL SITIO WEB-->		
+		<nav>
+			<ul>
+				<li> <a href="#"></a> </li>
+				<li> <a href="https://chestoso.github.io/Pagina/Pagina.html"> INICIO</a> </li>
+				<li> <a href="https://chestoso.github.io/Conceptos/Conceptos.html"> CONCEPTOS</a> </li>
+				<li> <a href="https://chestoso.github.io/Categoria/Categoria.html"> CATEGORIA</a> </li>
+				<li> <a href="https://chestoso.github.io/Obras/Obras.html"> OBRAS</a> </li>
+				<li> <a href="https://chestoso.github.io/Dibujos/Dibujos.html">- 💕 💕 - </a> </li>
+				<li> <a href="https://chestoso.github.io/Herramienta/Herramienta.html">HERRAMIENTA </a></li>
+				<li> <a href="https://chestoso.github.io/Formulario-del-Curso-de-Arte/Formulario%20del%20Curso%20de%20Arte.html"> REGISTRO</a> </li>
+				<li> <a href="https://chestoso.github.io/Contacto/Contacto.html"> CONTACTO </a> </li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--ENCABEZADO DEL CONTENIDO DEL SITIO WEB (IMAGENES DE TRANSCIONES)-->
+	<footer> 
+		<img src="FONDOS/ezgif.com-video-to-gif (1).gif" title="" width="1000" alt="300"/>
+	</footer>
+
+	<!--CONTENIDO DEL SITIO WEB-->
+	<section class="main">
+		<section class = "articles" >
+			<article>
+				<h1> Bienvenido al Bello Mundo del Arte 🎨 </h1>
+				<hr>
+				<br>
+				<p>
+					<i>El arte es un acto tan bello , que cualquier persona puede a llegar a ser perfecto.
+					Siempre el arte velo como una aspecto que produce alegria al momento de expresar , 
+					o travez un don que resalta en todo tu forma se ser...
+				</p>
+			</article>
+		</section>
+
+	<!--APARTADO DEL SITIO WEB QUE MUESTRA LA HORA -->
+		<aside>
+			<h4 > <i> HORA Y FECHA </i> </h4>
+			<hr>
+   			<div class="container-clock">
+        	<h6 id="time";> 00:00:00 </h6>
+        	<h5> <p id="date"> date</p> </h5>
+    		</div>
+  	<!--UTILIZANDO JAVA SCRIPT PARA EMPLEAR LA FUNCION HORA-->
+   			<script src="Reloj/clock.js"></script>
+			<hr>
+		</aside>
+	<br>
+	
+	<!--PIE DE PAGINA  DEL SITIO WEB-->	
+	<footer class="FONDO"> 
+		<p>	Creado por Jhon Jairo - Chestoso God - Copyright © 2023 - © Todos los derechos reservados </p>
+	</footer>
+	</section>
+	</div>
+</body>
+</html>
